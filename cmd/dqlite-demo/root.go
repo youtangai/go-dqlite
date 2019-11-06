@@ -13,7 +13,7 @@ func newRoot() *cobra.Command {
 		Short: "Demo application using dqlite",
 		Long: `This demo shows how to integrate a Go application with dqlite.
 
-Complete documentation is available at https://github.com/canonical/go-dqlite`,
+Complete documentation is available at https://github.com/CanonicalLtd/go-dqlite`,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			return fmt.Errorf("not implemented")
 		},

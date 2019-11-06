@@ -3,8 +3,8 @@ package dqlite
 import (
 	"time"
 
-	"github.com/canonical/go-dqlite/client"
-	"github.com/canonical/go-dqlite/internal/bindings"
+	"github.com/CanonicalLtd/go-dqlite/client"
+	"github.com/CanonicalLtd/go-dqlite/internal/bindings"
 	"github.com/pkg/errors"
 )
 

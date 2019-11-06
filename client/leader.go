@@ -6,7 +6,7 @@ import (
 
 	"github.com/Rican7/retry/backoff"
 	"github.com/Rican7/retry/strategy"
-	"github.com/canonical/go-dqlite/internal/protocol"
+	"github.com/CanonicalLtd/go-dqlite/internal/protocol"
 )
 
 // FindLeader returns a Client connected to the current cluster leader, if any.

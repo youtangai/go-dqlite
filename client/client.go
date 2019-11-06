@@ -7,7 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/canonical/go-dqlite/internal/protocol"
+	"github.com/CanonicalLtd/go-dqlite/internal/protocol"
 	"github.com/pkg/errors"
 )
 

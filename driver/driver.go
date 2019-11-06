@@ -26,9 +26,9 @@ import (
 	"github.com/Rican7/retry/strategy"
 	"github.com/pkg/errors"
 
-	"github.com/canonical/go-dqlite/client"
-	"github.com/canonical/go-dqlite/internal/bindings"
-	"github.com/canonical/go-dqlite/internal/protocol"
+	"github.com/CanonicalLtd/go-dqlite/client"
+	"github.com/CanonicalLtd/go-dqlite/internal/bindings"
+	"github.com/CanonicalLtd/go-dqlite/internal/protocol"
 )
 
 // Driver perform queries against a dqlite server.

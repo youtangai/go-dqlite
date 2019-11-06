@@ -8,7 +8,7 @@ import (
 	"net"
 
 	"github.com/Rican7/retry"
-	"github.com/canonical/go-dqlite/internal/logging"
+	"github.com/CanonicalLtd/go-dqlite/internal/logging"
 	"github.com/pkg/errors"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/canonical/go-dqlite/client"
+	"github.com/CanonicalLtd/go-dqlite/client"
 )
 
 func getLeader(cluster []string) (*client.Client, error) {
