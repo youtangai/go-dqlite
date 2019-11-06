@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/canonical/go-dqlite/internal/protocol"
+	"github.com/CanonicalLtd/go-dqlite/internal/protocol"
 	_ "github.com/mattn/go-sqlite3" // Go SQLite bindings
 )
 

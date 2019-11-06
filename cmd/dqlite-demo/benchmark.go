@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/canonical/go-dqlite/driver"
+	"github.com/CanonicalLtd/go-dqlite/driver"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

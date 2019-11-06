@@ -22,10 +22,10 @@ import (
 	"os"
 	"testing"
 
-	dqlite "github.com/canonical/go-dqlite"
-	"github.com/canonical/go-dqlite/client"
-	dqlitedriver "github.com/canonical/go-dqlite/driver"
-	"github.com/canonical/go-dqlite/internal/logging"
+	dqlite "github.com/CanonicalLtd/go-dqlite"
+	"github.com/CanonicalLtd/go-dqlite/client"
+	dqlitedriver "github.com/CanonicalLtd/go-dqlite/driver"
+	"github.com/CanonicalLtd/go-dqlite/internal/logging"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -393,7 +393,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/canonical/go-dqlite"
+	"github.com/CanonicalLtd/go-dqlite"
 	"github.com/CanonicalLtd/go-sqlite3"
 	"github.com/CanonicalLtd/raft-test"
 	"github.com/hashicorp/raft"

@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	dqlite "github.com/canonical/go-dqlite"
+	dqlite "github.com/CanonicalLtd/go-dqlite"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )
